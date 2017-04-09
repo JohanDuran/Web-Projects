@@ -1,0 +1,213 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	 background-image: url("http://hdwallpaperspretty.com/wp-content/gallery/background-images-for-web-pages/background-002.jpg");
+	 z-index: -1000;
+}
+
+
+.menu_bar {
+	display:none;
+}
+
+header {
+	width: 100%;
+	/*position: fixed;*/
+}
+
+header .logo{
+	position: relative;
+	width: 180px;
+	height: 30px;
+	top: 8px;
+	right: 24px;
+}
+header nav {
+	background:#fff;
+	z-index:1000;
+	max-width: 1000px;
+	width:95%;
+	margin:0px auto;
+	 border:3px solid #0303FB;
+}
+
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+
+header nav ul li:hover {
+	background:#48511E;
+}
+
+header nav ul li a {
+	color:black;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+
+header nav ul .close{
+	left:29.4%;
+}	
+
+header nav ul .close a{
+	text-decoration: underline;
+} 
+
+header nav ul .close:hover{
+	background: none;
+}
+
+
+header nav ul li a span {
+	margin-right:10px;
+}
+
+header nav ul li:hover .children {
+	display:block;
+}
+
+header nav ul li .children {
+	display: none;
+	background:#323232;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+header nav ul li .children li a {
+	display: block;
+}
+
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+
+.container{
+	width: 94%;
+	margin:auto;
+
+}
+
+.container div{
+	margin-top: 20px;
+}
+
+
+footer{
+	background: #040000;
+	color: #FFFFFF;
+	font-size: 20;
+	padding: 10px;
+	margin:30px;
+}
+
+footer p{
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:80px;
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:#0A36F2;
+	}
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+
+	header nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	header nav ul li:hover {
+		background: #0A36F2;
+	}
+
+	header nav ul li a {
+		display: block;
+		text-decoration: none;
+	}
+
+	header nav ul .close{
+		left: 0px;
+	}
+
+
+	header nav ul .close:hover{
+		background: #2F2D2D;
+	}
+
+	header nav ul li:hover .children {
+		display: none;
+	}
+
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+
+	header nav ul li .caret {
+		float: right;
+	}
+}

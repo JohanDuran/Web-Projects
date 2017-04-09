@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<title>Grafica</title>
+	<link rel="stylesheet" href="../css/estilos.css">
+	<script src="../funciones.js"></script>
+</head>
+<body>
+	<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" onsubmit="return hola();">
+	<div>
+	<h1 class"">acacacas </h1>
+		<select name="variable">
+			<option value="seleccione">Seleccione:</option>
+		  	<option value="temperatura">Temperatura</option>
+		  	<option value="humedad">Humedad</option>
+		  	<option value="humedadRelativa">humedad Relativa</option>
+		  	<option value="VelocidadViento">Velocidad del viento</option>
+		 	<option value="Radiacion">Radiación</option>
+		</select>
+			<input type="date" name="fechaInicio" >
+			<input type="date" name="fechaFinal">
+			<input type="submit" value="Graficar">
+    </div>
+    </form>
+</body>
+</html>

