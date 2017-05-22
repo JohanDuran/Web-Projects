@@ -1,0 +1,14 @@
+table, th, td {
+	border-style: double;
+	padding: 2px;
+}
+
+.pageCss{
+	text-align: center;
+	background-color: #C3E1C7;
+	padding: 10px;
+}
+
+span{
+	font-weight: bold;
+}
