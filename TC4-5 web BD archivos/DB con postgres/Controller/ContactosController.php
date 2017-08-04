@@ -43,7 +43,6 @@ class ContactosController extends Controller {
 		$contact->correo=$_POST['correo'];
 		$contact->fecha = date('Y-m-d');
 		$estado=$contact->Save();
-		echo $estado;
 		if($estado){
 			$this->view->assign('mensaje', 'Contacto agregado de forma satisfactoria');
 		}else{
